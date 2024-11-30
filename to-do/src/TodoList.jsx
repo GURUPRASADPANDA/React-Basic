@@ -10,8 +10,8 @@ export default function TodoList(){
 
     let updateTodoValue= (event)=>{
       setnewTodo(event.target.value);
-    };
-
+    };  
+        
     return (
         <div>
            <input type="text" placeholder="Add tasks here" onChange={updateTodoValue}/>
@@ -30,6 +30,6 @@ export default function TodoList(){
            </ul>
         
         </div>
-       
+        
     );
 }
